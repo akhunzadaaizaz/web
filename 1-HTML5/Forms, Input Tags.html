@@ -5,25 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Forms And Input Tags </title>
+    <style>
+        .bg{
+            background-image: url(pexels-tirachard-kumtanom-733857.jpg);
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+        body,html{
+            height: 100%;
+        }
+        #h1{
+                margin: -8px;
+    padding-left: 10px;
+    padding-bottom: 18px;
+    font-size: 195%;
+    color: blueviolet;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+        }
+        .container{
+            padding-left: 48%;
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1> FORM </h1>
+    <div class="bg">
+        <div class="container">
+    <h1 id="h1"> Admission Form </h1>
     <form action="backend.php"> 
-            <label for=" name "> Name :</label>
+        
         <div> 
-            <input type="text" name=" My Name " id = " name " >
+            Name : <input type="text" name=" My Name " id = " name " >
         </div>
         <br>
         <div> 
-            Roll : <input type="text">
+            R. No : <input type="text">
         </div>
         <br>
         <div>
-            Department : <input type="text">
+            Deptt : <input type="text">
         </div>
         <br>
         <div>
-            Semester : <input type="text">
+            Class : <input type="text">
         </div>
         <br>
         <div>
@@ -31,7 +60,7 @@
         </div>
         <br>
         <div>
-            Submission Date : <input type="date" name=" My Date ">
+            Dated : <input type="date" name=" My Date ">
         </div>
         <br>
         <div>
@@ -60,6 +89,7 @@
         </div>
         
     </form>
-
+</div>
+</div>
 </body>
 </html>
